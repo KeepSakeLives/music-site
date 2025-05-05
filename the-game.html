@@ -2,88 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>D Rap Blasters – The Game (EP)</title>
+  <title>D Rap Blasters – Albums</title>
   <style>
     body {
+      background-color: #111;
+      color: #eee;
       font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #f0f0f0;
       margin: 0;
       padding: 20px;
       text-align: center;
     }
-    img.cover {
-      width: 300px;
-      max-width: 90%;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-    }
     h1 {
       font-size: 2.5em;
-      margin: 20px 0 5px;
+      margin-bottom: 40px;
     }
-    h2 {
-      color: #bbb;
-      font-weight: normal;
-      margin-bottom: 30px;
-    }
-    .track {
-      margin: 30px auto;
-      width: 90%;
-      max-width: 600px;
-      border-bottom: 1px solid #333;
-      padding-bottom: 20px;
-    }
-    audio {
-      width: 100%;
-      margin-top: 10px;
-    }
-    a.download {
+    .album {
       display: inline-block;
-      margin-top: 10px;
-      color: #1db954;
-      text-decoration: none;
+      margin: 20px;
+      text-align: center;
     }
-    a.download:hover {
+    .album img {
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.2);
+      transition: transform 0.2s;
+    }
+    .album img:hover {
+      transform: scale(1.05);
+    }
+    .album-title {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    a {
+      text-decoration: none;
+      color: #1db954;
+    }
+    a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <img src="162700_170191416355919_5976752_n.jpg" alt="Album Cover" class="cover">
-  <h1>D Rap Blasters</h1>
-  <h2>The Game (EP)</h2>
+  <h1>D Rap Blasters – Albums</h1>
 
-  <div class="track">
-    <h3>1. The Game</h3>
-    <audio controls>
-      <source src="The Game.mp3" type="audio/mpeg">
-    </audio>
-    <a class="download" href="The Game.mp3" download>Download</a>
+  <div class="album">
+    <a href="the-game.html">
+      <img src="162700_170191416355919_5976752_n.jpg" alt="The Game Cover">
+      <div class="album-title">The Game (EP)</div>
+    </a>
   </div>
 
-  <div class="track">
-    <h3>2. Muqabala (Ve Main Gangsta)</h3>
-    <audio controls>
-      <source src="Muqabala (Ve Main Gangsta).mp3" type="audio/mpeg">
-    </audio>
-    <a class="download" href="Muqabala (Ve Main Gangsta).mp3" download>Download</a>
-  </div>
+  <!-- Add more albums here as needed -->
 
-  <div class="track">
-    <h3>3. My Swag</h3>
-    <audio controls>
-      <source src="My Swag.mp3" type="audio/mpeg">
-    </audio>
-    <a class="download" href="My Swag.mp3" download>Download</a>
-  </div>
-
-  <div class="track">
-    <h3>4. Step Up</h3>
-    <audio controls>
-      <source src="Step up.mp3" type="audio/mpeg">
-    </audio>
-    <a class="download" href="Step up.mp3" download>Download</a>
-  </div>
 </body>
 </html>
